@@ -2,8 +2,8 @@
 var box = $('.box');
 $.get('templates/where.html', function(data){
    box.html(data);
-}).fail(function(jqXHR){
-   console.log(jqXHR.status + ' ' + jqXHR.statusText);
+}).fail(function(req){
+   console.log(req.status + ' ' + req.statusText);
 });
 
 
@@ -13,7 +13,7 @@ $('.nav_button').on('click', function(e){
 
    $.get(url, function(data){
       box.html(data);
-   }).fail(function(jqXHR){
-      console.log(jqXHR.status + ' ' + jqXHR.statusText);
+   }).fail(function(req){
+      console.log(req.status + ' ' + req.statusText);
    });
 });

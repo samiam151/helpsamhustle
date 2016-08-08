@@ -1,0 +1,36 @@
+@media only screen and (max-width: 700px) {
+    .container {
+        width: 90vw;
+    }
+
+    header {
+        .nav {
+            display: block;
+            width: 100%;
+            padding: 0;
+            
+            p {
+                padding: 15px 0px;
+                font-size: 1.5em;
+            }
+        }
+    }
+
+    #what_div {
+
+        div {
+            margin-bottom: 10%;
+        }
+
+        h1 {
+            font-size: 1.2em;
+        }
+        p {
+            font-size: 0.7em;
+        }
+        li {
+            font-size: 0.6em;
+        }
+    }
+    
+}

@@ -1,0 +1,72 @@
+$green: #00cc67;
+$dark_green: darken($green, 10%);
+
+
+// Globals
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 16pt;
+}
+
+.container {
+   width: 40vw;
+   margin: 0 auto;
+}
+
+li {
+   list-style-type: none;
+   vertical-align: top;
+}
+
+// Header and Nav
+header {
+   width: 100%;
+   background-color: $dark_green;
+   color: white;
+   margin-bottom: 3%;
+   box-shadow: 0px 3px 3px lightgrey;
+
+   .nav{
+      width: 50vw;
+      display: inline-block;
+      text-align: center;
+      padding: 2% 0%;
+      vertical-align: top;
+      margin-right: -4px;
+
+      p {
+         font-size: 2.5em;
+         cursor: pointer;
+
+         &:hover {
+            color: darken(white, 10%);
+         }
+      }
+   }
+}
+
+#what_div {
+   text-align: center;
+
+   section.section {
+       margin-bottom: 2vh;
+   }
+}
+
+footer {
+    background-color: $dark-green;
+    height: 10vh;
+
+    p {
+        text-align: center;
+        width: 100%;
+        color: white;
+        padding-top: 3vh;
+        
+    }
+}
